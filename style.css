@@ -219,7 +219,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
 	.btn-box { 
-	right: 5%;
+	left: -5%;
 	}
 }
 
@@ -266,7 +266,8 @@ body {
 }
 @media only screen and (max-width: 768px) {
 	.home-sci { 
-	left: 35%;
+	top: 85%;
+	left: 33%;
 	}
 }
 
