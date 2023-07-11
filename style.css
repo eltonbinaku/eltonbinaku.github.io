@@ -145,7 +145,7 @@ body {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	width: 325px;
+    width: 325px;
 	height: 50px;
 	color: transparent;
 	
@@ -790,7 +790,13 @@ margin-top: 90px;
 
 @media (min-width: 1000px) {
   .column {
-    width: 50%;
+  
+    width: 100%;
+    padding: 0 10px; /* Adjust padding as needed */
+    text-align: justify;
+	 word-wrap: break-word;
+
+  
   }
 }
 @media (max-width: 1000px) {
@@ -799,9 +805,3 @@ margin-top: 90px;
     width: 100%;
   }
   
-  .column {
-    width: 100%;
-    padding: 0 10px; /* Adjust padding as needed */
-    text-align: justify;
-
-  }
