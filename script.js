@@ -100,3 +100,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
   window.addEventListener('scroll', handleScroll);
 });
+
+function toggleMenu() {
+  var menuIcon = document.querySelector('.icon');
+  var navbar = document.querySelector('.navbar');
+  var homeSection = document.querySelector('#home-section');
+
+  menuIcon.classList.toggle('open');
+  navbar.classList.toggle('active');
+  homeSection.classList.toggle('menu-open');
+
+  if (menuIcon.classList.contains('open')) {
+    homeSection.style.paddingTop = '200px'; // Add desired padding value
+  } else {
+    homeSection.style.paddingTop = '0';
+  }
+}
