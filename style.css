@@ -356,6 +356,29 @@ body {
     display: none;
   }
 }
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-header a {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-header {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+    /* Add styles for the hamburger icon, such as icon font or background image */
+  }
+
+  .navbar.active .navbar-header {
+    display: flex;
+    /* Add styles for the menu items, such as positioning and animation */
+  }
+}
 
 .navbar-header.active {
   display: block;
