@@ -219,6 +219,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
 	.btn-box { 
+	margin-bottom: 30px;
 	left: -5%;
 	}
 }
