@@ -432,6 +432,11 @@ body {
     margin-right: auto;
   }
 }
+@media (max-width: 500px) {
+  .img-container img {
+	display: none;
+  }
+}
 
 .image-container:hover img {
   opacity: 0.7; /* Change the opacity value as desired */
@@ -612,6 +617,16 @@ section .text-container .text-box h3{
   opacity: 1;
   transform: translateY(0);
   color: yellow;
+}
+.skillsp{
+	 font-family: "Fira Code", monospace;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 450px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center horizontally */
 }
 
 
