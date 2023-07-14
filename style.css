@@ -75,7 +75,20 @@ body {
 .navbar a.active{
 	color: #00abf0;
 }
+@media only screen and (max-width: 768px) {
+  .home-content {
+    text-align: center;
+  }
 
+  .home-content h1,
+  .home-content h3,
+  .home-content p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+}
 .home{
 	height: 100vh;
 	background:#081b29 ;
