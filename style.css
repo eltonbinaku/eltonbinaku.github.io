@@ -738,7 +738,7 @@ section .text-container .text-box h3{
   }
 }
 .skillsp{
-	 font-family: "Fira Code", monospace;
+  font-family: "Fira Code", monospace;
   font-weight: 600;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -755,6 +755,7 @@ section .text-container .text-box h3{
   margin-bottom: 20px;
 }
 .medium-image {
+  margin-left: -150px;
   position: relative;
   margin-top: 200px;
   width: 300px;
@@ -790,6 +791,7 @@ section .text-container .text-box h3{
 }
 
 .quote-img {
+  
   width: 100%;
   height: auto;
   border-radius: 50%;
